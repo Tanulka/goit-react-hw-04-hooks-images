@@ -53,7 +53,7 @@ function App() {
   }
 
   const toggleModal = () => {
-    setShowModal(!false);
+    setShowModal(!showModal);
   };
 
   return (
